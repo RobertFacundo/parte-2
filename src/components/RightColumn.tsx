@@ -3,7 +3,7 @@ function RightColumn() {
     <div className="hidden lg:block w-1/2 flex flex-col items-center ">
        <svg
         id="python-logo"
-        className="transform translate-x-30" 
+        className="transform translate-x-20" 
         width="100%"
         height="100%"
         viewBox="0 0 512 512"

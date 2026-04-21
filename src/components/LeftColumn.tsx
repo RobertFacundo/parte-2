@@ -34,7 +34,7 @@ const handleLearnMore = () => {
 const LeftColumn = () => {
 
     return (
-        <div className="w-full lg:w-1/2 space-y-8">
+        <div className="w-full lg:w-1/2 space-y-8  ml-8">
             <motion.h1
                 className="text-4xl lg:text-6xl font-bold"
                 initial={{ opacity: 0, y: 20 }}
