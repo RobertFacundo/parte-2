@@ -1,7 +1,7 @@
 import { FaClock, FaCode, FaUsers, FaMedal } from 'react-icons/fa';
 import Button from './Button';
 import { motion } from 'framer-motion';
-
+import { Typewriter } from 'react-simple-typewriter';
 
 const listItems = [
     {
@@ -41,7 +41,16 @@ const LeftColumn = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
             >
-                Aprenda <span className="text-green-500">Python</span> do zero e construa projetos reais com <span className="text-green-500">IA</span>
+                Aprenda{' '}
+                <span className="text-green-500 inline-block min-w-[140px]">
+                    <Typewriter
+                        words={['Python']}
+                        cursor
+                        typeSpeed={300}
+                    />
+                </span>{' '}
+                do zero e construa projetos reais com{' '}
+                <span className="text-green-500">IA</span>
             </motion.h1>
 
             <motion.p
